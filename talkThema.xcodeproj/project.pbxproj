@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99C7184E25EBA5870070804E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7184D25EBA5870070804E /* AppDelegate.swift */; };
+		99C7185025EBA5870070804E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7184F25EBA5870070804E /* SceneDelegate.swift */; };
+		99C7185225EBA5870070804E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7185125EBA5870070804E /* ViewController.swift */; };
+		99C7185525EBA5870070804E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C7185325EBA5870070804E /* Main.storyboard */; };
+		99C7185725EBA58A0070804E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C7185625EBA58A0070804E /* Assets.xcassets */; };
+		99C7185A25EBA58A0070804E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C7185825EBA58A0070804E /* LaunchScreen.storyboard */; };
+		99C7186525EBA58A0070804E /* talkThemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7186425EBA58A0070804E /* talkThemaTests.swift */; };
+		99C7187025EBA58B0070804E /* talkThemaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7186F25EBA58B0070804E /* talkThemaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99C7186125EBA58A0070804E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C7184225EBA5870070804E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C7184925EBA5870070804E;
+			remoteInfo = talkThema;
+		};
+		99C7186C25EBA58B0070804E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99C7184225EBA5870070804E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C7184925EBA5870070804E;
+			remoteInfo = talkThema;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99C7184A25EBA5870070804E /* talkThema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talkThema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C7184D25EBA5870070804E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99C7184F25EBA5870070804E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99C7185125EBA5870070804E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99C7185425EBA5870070804E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99C7185625EBA58A0070804E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99C7185925EBA58A0070804E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99C7185B25EBA58A0070804E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C7186025EBA58A0070804E /* talkThemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talkThemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C7186425EBA58A0070804E /* talkThemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talkThemaTests.swift; sourceTree = "<group>"; };
+		99C7186625EBA58A0070804E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C7186B25EBA58B0070804E /* talkThemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talkThemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C7186F25EBA58B0070804E /* talkThemaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talkThemaUITests.swift; sourceTree = "<group>"; };
+		99C7187125EBA58B0070804E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99C7184725EBA5870070804E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C7185D25EBA58A0070804E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C7186825EBA58B0070804E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99C7184125EBA5870070804E = {
+			isa = PBXGroup;
+			children = (
+				99C7184C25EBA5870070804E /* talkThema */,
+				99C7186325EBA58A0070804E /* talkThemaTests */,
+				99C7186E25EBA58B0070804E /* talkThemaUITests */,
+				99C7184B25EBA5870070804E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99C7184B25EBA5870070804E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99C7184A25EBA5870070804E /* talkThema.app */,
+				99C7186025EBA58A0070804E /* talkThemaTests.xctest */,
+				99C7186B25EBA58B0070804E /* talkThemaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99C7184C25EBA5870070804E /* talkThema */ = {
+			isa = PBXGroup;
+			children = (
+				99C7184D25EBA5870070804E /* AppDelegate.swift */,
+				99C7184F25EBA5870070804E /* SceneDelegate.swift */,
+				99C7185125EBA5870070804E /* ViewController.swift */,
+				99C7185325EBA5870070804E /* Main.storyboard */,
+				99C7185625EBA58A0070804E /* Assets.xcassets */,
+				99C7185825EBA58A0070804E /* LaunchScreen.storyboard */,
+				99C7185B25EBA58A0070804E /* Info.plist */,
+			);
+			path = talkThema;
+			sourceTree = "<group>";
+		};
+		99C7186325EBA58A0070804E /* talkThemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				99C7186425EBA58A0070804E /* talkThemaTests.swift */,
+				99C7186625EBA58A0070804E /* Info.plist */,
+			);
+			path = talkThemaTests;
+			sourceTree = "<group>";
+		};
+		99C7186E25EBA58B0070804E /* talkThemaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99C7186F25EBA58B0070804E /* talkThemaUITests.swift */,
+				99C7187125EBA58B0070804E /* Info.plist */,
+			);
+			path = talkThemaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99C7184925EBA5870070804E /* talkThema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C7187425EBA58B0070804E /* Build configuration list for PBXNativeTarget "talkThema" */;
+			buildPhases = (
+				99C7184625EBA5870070804E /* Sources */,
+				99C7184725EBA5870070804E /* Frameworks */,
+				99C7184825EBA5870070804E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = talkThema;
+			productName = talkThema;
+			productReference = 99C7184A25EBA5870070804E /* talkThema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99C7185F25EBA58A0070804E /* talkThemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C7187725EBA58B0070804E /* Build configuration list for PBXNativeTarget "talkThemaTests" */;
+			buildPhases = (
+				99C7185C25EBA58A0070804E /* Sources */,
+				99C7185D25EBA58A0070804E /* Frameworks */,
+				99C7185E25EBA58A0070804E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C7186225EBA58A0070804E /* PBXTargetDependency */,
+			);
+			name = talkThemaTests;
+			productName = talkThemaTests;
+			productReference = 99C7186025EBA58A0070804E /* talkThemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99C7186A25EBA58B0070804E /* talkThemaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C7187A25EBA58B0070804E /* Build configuration list for PBXNativeTarget "talkThemaUITests" */;
+			buildPhases = (
+				99C7186725EBA58B0070804E /* Sources */,
+				99C7186825EBA58B0070804E /* Frameworks */,
+				99C7186925EBA58B0070804E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99C7186D25EBA58B0070804E /* PBXTargetDependency */,
+			);
+			name = talkThemaUITests;
+			productName = talkThemaUITests;
+			productReference = 99C7186B25EBA58B0070804E /* talkThemaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99C7184225EBA5870070804E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					99C7184925EBA5870070804E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					99C7185F25EBA58A0070804E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 99C7184925EBA5870070804E;
+					};
+					99C7186A25EBA58B0070804E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 99C7184925EBA5870070804E;
+					};
+				};
+			};
+			buildConfigurationList = 99C7184525EBA5870070804E /* Build configuration list for PBXProject "talkThema" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99C7184125EBA5870070804E;
+			productRefGroup = 99C7184B25EBA5870070804E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99C7184925EBA5870070804E /* talkThema */,
+				99C7185F25EBA58A0070804E /* talkThemaTests */,
+				99C7186A25EBA58B0070804E /* talkThemaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C7184825EBA5870070804E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C7185A25EBA58A0070804E /* LaunchScreen.storyboard in Resources */,
+				99C7185725EBA58A0070804E /* Assets.xcassets in Resources */,
+				99C7185525EBA5870070804E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C7185E25EBA58A0070804E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C7186925EBA58B0070804E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C7184625EBA5870070804E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C7185225EBA5870070804E /* ViewController.swift in Sources */,
+				99C7184E25EBA5870070804E /* AppDelegate.swift in Sources */,
+				99C7185025EBA5870070804E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C7185C25EBA58A0070804E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C7186525EBA58A0070804E /* talkThemaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C7186725EBA58B0070804E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C7187025EBA58B0070804E /* talkThemaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99C7186225EBA58A0070804E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C7184925EBA5870070804E /* talkThema */;
+			targetProxy = 99C7186125EBA58A0070804E /* PBXContainerItemProxy */;
+		};
+		99C7186D25EBA58B0070804E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99C7184925EBA5870070804E /* talkThema */;
+			targetProxy = 99C7186C25EBA58B0070804E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99C7185325EBA5870070804E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C7185425EBA5870070804E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99C7185825EBA58A0070804E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99C7185925EBA58A0070804E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99C7187225EBA58B0070804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99C7187325EBA58B0070804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99C7187525EBA58B0070804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC69669R63;
+				INFOPLIST_FILE = talkThema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.konishi.kony.talkThema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99C7187625EBA58B0070804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC69669R63;
+				INFOPLIST_FILE = talkThema/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.konishi.kony.talkThema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99C7187825EBA58B0070804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC69669R63;
+				INFOPLIST_FILE = talkThemaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.konishi.kony.talkThemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talkThema.app/talkThema";
+			};
+			name = Debug;
+		};
+		99C7187925EBA58B0070804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC69669R63;
+				INFOPLIST_FILE = talkThemaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.konishi.kony.talkThemaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talkThema.app/talkThema";
+			};
+			name = Release;
+		};
+		99C7187B25EBA58B0070804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC69669R63;
+				INFOPLIST_FILE = talkThemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.konishi.kony.talkThemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = talkThema;
+			};
+			name = Debug;
+		};
+		99C7187C25EBA58B0070804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC69669R63;
+				INFOPLIST_FILE = talkThemaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.konishi.kony.talkThemaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = talkThema;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99C7184525EBA5870070804E /* Build configuration list for PBXProject "talkThema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C7187225EBA58B0070804E /* Debug */,
+				99C7187325EBA58B0070804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C7187425EBA58B0070804E /* Build configuration list for PBXNativeTarget "talkThema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C7187525EBA58B0070804E /* Debug */,
+				99C7187625EBA58B0070804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C7187725EBA58B0070804E /* Build configuration list for PBXNativeTarget "talkThemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C7187825EBA58B0070804E /* Debug */,
+				99C7187925EBA58B0070804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C7187A25EBA58B0070804E /* Build configuration list for PBXNativeTarget "talkThemaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C7187B25EBA58B0070804E /* Debug */,
+				99C7187C25EBA58B0070804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99C7184225EBA5870070804E /* Project object */;
+}
