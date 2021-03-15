@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		99C7184E25EBA5870070804E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7184D25EBA5870070804E /* AppDelegate.swift */; };
 		99C7185025EBA5870070804E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7184F25EBA5870070804E /* SceneDelegate.swift */; };
-		99C7185225EBA5870070804E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7185125EBA5870070804E /* ViewController.swift */; };
+		99C7185225EBA5870070804E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7185125EBA5870070804E /* TableViewController.swift */; };
 		99C7185525EBA5870070804E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C7185325EBA5870070804E /* Main.storyboard */; };
 		99C7185725EBA58A0070804E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C7185625EBA58A0070804E /* Assets.xcassets */; };
 		99C7185A25EBA58A0070804E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C7185825EBA58A0070804E /* LaunchScreen.storyboard */; };
 		99C7186525EBA58A0070804E /* talkThemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7186425EBA58A0070804E /* talkThemaTests.swift */; };
 		99C7187025EBA58B0070804E /* talkThemaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7186F25EBA58B0070804E /* talkThemaUITests.swift */; };
+		99C7188425EBA7940070804E /* AddThemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7188325EBA7940070804E /* AddThemaViewController.swift */; };
+		99C7188925EBA7B00070804E /* ShuffleThemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7188825EBA7B00070804E /* ShuffleThemaViewController.swift */; };
+		99C7188E25EBB2890070804E /* freespaceicon-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C7188D25EBB2890070804E /* freespaceicon-02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		99C7184A25EBA5870070804E /* talkThema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talkThema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C7184D25EBA5870070804E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C7184F25EBA5870070804E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		99C7185125EBA5870070804E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99C7185125EBA5870070804E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		99C7185425EBA5870070804E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99C7185625EBA58A0070804E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C7185925EBA58A0070804E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		99C7186B25EBA58B0070804E /* talkThemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talkThemaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C7186F25EBA58B0070804E /* talkThemaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = talkThemaUITests.swift; sourceTree = "<group>"; };
 		99C7187125EBA58B0070804E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C7188325EBA7940070804E /* AddThemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThemaViewController.swift; sourceTree = "<group>"; };
+		99C7188825EBA7B00070804E /* ShuffleThemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleThemaViewController.swift; sourceTree = "<group>"; };
+		99C7188D25EBB2890070804E /* freespaceicon-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "freespaceicon-02.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,16 @@
 		99C7184C25EBA5870070804E /* talkThema */ = {
 			isa = PBXGroup;
 			children = (
+				99C7188D25EBB2890070804E /* freespaceicon-02.png */,
 				99C7184D25EBA5870070804E /* AppDelegate.swift */,
 				99C7184F25EBA5870070804E /* SceneDelegate.swift */,
-				99C7185125EBA5870070804E /* ViewController.swift */,
+				99C7185125EBA5870070804E /* TableViewController.swift */,
 				99C7185325EBA5870070804E /* Main.storyboard */,
 				99C7185625EBA58A0070804E /* Assets.xcassets */,
 				99C7185825EBA58A0070804E /* LaunchScreen.storyboard */,
 				99C7185B25EBA58A0070804E /* Info.plist */,
+				99C7188325EBA7940070804E /* AddThemaViewController.swift */,
+				99C7188825EBA7B00070804E /* ShuffleThemaViewController.swift */,
 			);
 			path = talkThema;
 			sourceTree = "<group>";
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C7185A25EBA58A0070804E /* LaunchScreen.storyboard in Resources */,
+				99C7188E25EBB2890070804E /* freespaceicon-02.png in Resources */,
 				99C7185725EBA58A0070804E /* Assets.xcassets in Resources */,
 				99C7185525EBA5870070804E /* Main.storyboard in Resources */,
 			);
@@ -258,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C7185225EBA5870070804E /* ViewController.swift in Sources */,
+				99C7185225EBA5870070804E /* TableViewController.swift in Sources */,
 				99C7184E25EBA5870070804E /* AppDelegate.swift in Sources */,
+				99C7188425EBA7940070804E /* AddThemaViewController.swift in Sources */,
+				99C7188925EBA7B00070804E /* ShuffleThemaViewController.swift in Sources */,
 				99C7185025EBA5870070804E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,12 +449,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ZC69669R63;
 				INFOPLIST_FILE = talkThema/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = app.konishi.kony.talkThema;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -456,12 +471,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ZC69669R63;
 				INFOPLIST_FILE = talkThema/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = app.konishi.kony.talkThema;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
